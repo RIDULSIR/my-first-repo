@@ -42,32 +42,50 @@ nav a{
 
 /* header realted style */ 
 .header{
-    background-color: white;
-    background-image:url('../images/header_bg.png') ;
-    background-repeat: no-repeat;
-    background-position:bottom right;
+ background-color: white;
+ background-image: url("../images/header_bg.png");
+ background-repeat: no-repeat;
+ background-position: bottom right;
+ 
+
 }
 /* banner realted style */
+.banner-contant{
+    max-width: 500px;
+}
 .banner{
-    padding:30px 30px 0px 30px 150px;
+    padding:30px 30px 0px 150px;
    display: flex;
-   align-items: center;
-  
-   
+   align-items: center; 
 }
 .banner.profile-pic{
     width: 500px;
 }
 .banner-greeting{
-    font-size: 45px;
+    font-size: 50px;
     color: #474747;
     margin-top: 5px;
    
 }
-/* main section */
-main{
-    width: 1140px;
-    margin: 0 auto;
+/* main section styles */
+ .section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+ }
+ .section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+ }
+/* main section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 130px;
+
 }
 body{
     // <uniquifier>: Use a unique and descriptive class name
