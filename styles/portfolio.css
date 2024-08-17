@@ -98,6 +98,9 @@ main{
 .about-info{
     text-align: center;
 }
+#what-i-do-description{
+    padding: 30px 150px;
+}
 body{
     // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800
