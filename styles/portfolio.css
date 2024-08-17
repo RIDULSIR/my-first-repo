@@ -80,12 +80,23 @@ nav a{
     font-size: 20px;
  }
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: o auto;
+}
 .about{
     padding: 130px;
     border-radius: 10px;
     background-color: white;
     margin-top: 130px;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
 body{
     // <uniquifier>: Use a unique and descriptive class name
