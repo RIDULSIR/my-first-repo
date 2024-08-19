@@ -146,6 +146,13 @@ color: #757575;
 .resume-container hr{
     margin: 30px;
 }
+/* footer style */
+footer{
+    display: flex
+    background-color: #fff8f3;
+    padding: 130px 200px;
+
+}
 body{
     // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800
